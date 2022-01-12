@@ -10,5 +10,6 @@ namespace BookStore.Repositories
         IList<TEntity> List();
         TEntity Find(int id);
         void Add(TEntity entity);
+        void delete( int id);
     }
 }
